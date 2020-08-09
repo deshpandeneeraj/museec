@@ -36,4 +36,4 @@ for i in exts:
 
 
 
-bot.run(os.getenv('DISCORD_TOKEN'))
+bot.run(os.environ.get('DISCORD_TOKEN'))
